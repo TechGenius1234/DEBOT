@@ -16,5 +16,6 @@ require("./handlers/commands.js")(client);
 require("./handlers/buttons.js")(client);
 require("./handlers/modals.js")(client);
 require("./handlers/selects.js")(client);
+require("./systems/welcome/welcome.events.js")(client);
 
 client.login(process.env.TOKEN);
